@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>სარჩევი</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../java/style.css" type="text/css" />
+<link rel="shortcut icon" href="../favicon.ico" />
+<script type="text/javascript">
+    function showthis_id(id) {
+        //if(document.getElementById('menu'+id).style.display=='none'){
+        //  document.getElementById('menu'+id).style.display='block';
+        //}else{
+        //  document.getElementById('menu'+id).style.display='none';
+        //}
+        //document.getElementById('menu'+1).style.display='none';
+        var ii;
+        for(ii=1;ii<=25;ii++){
+            if(id==ii){
+                if (document.getElementById('menu' + ii)) {
+                    document.getElementById('menu' + ii).style.display = 'block';
+                }
+            }else{
+                if (document.getElementById('menu' + ii)) {
+                    document.getElementById('menu' + ii).style.display = 'none';
+                }
+            }
+        }
+    }
+</script>
+</head>
+<body>
+<script language="javascript" type="text/javascript" src="../java/zeda_mx.js"></script>
+<div class="chrdl_rd">სარჩევი</div>
+<div>
+<ul class="menu_nav">
+<li><a onclick="showthis_id(1)" href="#">ძილის წინ და შემდომ</a>
+<div style="display: none;" id="menu1">
+<ul style="padding-left: 30px;" class="menu_nav">
+	<li class="nav2"><a href="ziladmisvlis.html">ძილად მისვლის ლოცვანი</a></li>
+	<li class="nav2"><a href="zilisshemdgom.html">ლოცვანი შემდგომად ძილისა</a></li>
+	<li class="nav2"><a href="zilismokle.html">ძილის წინ და შემდომ მოკლე</a></li>
+</ul></div></li>
+<li><a onclick="showthis_id(2)" href="#">შვიდგზის ლოცვა</a>
+<div style="display: none;" id="menu2">
+<ul style="padding-left: 30px;" class="menu_nav">
+	<li class="nav2"><a href="st6.html">დილის 6 საათზე</a></li>
+	<li class="nav2"><a href="st9.html">დილის 9 საათზე</a></li>
+	<li class="nav2"><a href="st12.html">დღის 12 საათზე</a></li>
+	<li class="nav2"><a href="st15.html">დღის 3 საათზე</a></li>
+	<li class="nav2"><a href="st18.html">საღამოს 6 საათზე</a></li>
+	<li class="nav2"><a href="st21.html">საღამოს 9 საათზე</a></li>
+	<li class="nav2"><a href="st24.html">ღამის 12 საათზე</a></li>
+</ul></div></li>
+<li><a onclick="showthis_id(3)" href="#">აღსარების და ზიარების</a>
+<div style="display: none;" id="menu3">
+<ul style="padding-left: 30px;" class="menu_nav">
+	<li class="nav2"><a href="agsarebis.html">აღსარების წინ</a></li>
+	<li class="nav2"><a href="agsarebisshemdgom.html">აღსარების შემდგომ</a></li>
+	<li class="nav2"><a href="ziarebis.html">ზიარების წინ</a></li>
+	<li class="nav2"><a href="ziarebisshemdgom.html">ზიარების შემდგომ</a></li>
+</ul></div></li>
+<li><a onclick="showthis_id(4)" href="#">საყოველდღეო ლოცვანი</a>
+<div style="display: none;" id="menu4">
+<ul style="padding-left: 30px;" class="menu_nav">
+	<li class="nav2"><a href="scavlis.html">სწავლის წინ და შემდგომ</a></li>
+	<li class="nav2"><a href="sazrdelis.html">საზრდელის წინ და შემდგომ</a></li>
+	<li class="nav2"><a href="saqmis.html">საქმის წინ და შემდგომ</a></li>
+	<li class="nav2"><a href="mgzavrobis.html">მგზავრობის მნებებელთა</a></li>
+	<li class="nav2"><a href="sneultatvis.html">ლოცვა სნეულთათჳს</a></li>
+	<li class="nav2"><a href="txovata.html">თხოვათა მიმთხვეჳსათჳს</a></li>
+	<li class="nav2"><a href="efrem_asurisa.html">ლოცვა ეფრემ ასურისა</a></li>
+	<li class="nav2"><a href="zilshi_dacemis.html">ძილსა შინა დაცემისა</a></li>
+</ul></div></li>
+<li><a onclick="showthis_id(5)" href="#">შვიდეულთა დღეთა</a>
+<div style="display: none;" id="menu5">
+<ul style="padding-left: 30px;" class="menu_nav">
+	<li class="nav2"><a href="shv_or.html">ორშაბათისა</a></li>
+	<li class="nav2"><a href="shv_sam.html">სამშაბათისა</a></li>
+	<li class="nav2"><a href="shv_otx.html">ოთხშაბათისა</a></li>
+	<li class="nav2"><a href="shv_xut.html">ხუთშაბათისა</a></li>
+	<li class="nav2"><a href="shv_par.html">პარასკევისა</a></li>
+	<li class="nav2"><a href="shv_shab.html">შაბათისა</a></li>
+	<li class="nav2"><a href="shv_kv.html">კჳრიაკისა</a></li>
+</ul></div></li>
+</ul>
+</div>
+<!-- <ul class="lst">შვიდგზის ლოცვები:
+<li><a href="orshabatis.html">ლოცვა ორშაბათისა</a>.</li>
+<li><a href="st6.html">დილის 6 საათზე</a></li>
+<li><a href="st9.html">დილის 9 საათზე</a></li>
+<li><a href="st12.html">დღის 12 საათზე</a></li>
+<li><a href="st15.html">დღის 3 საათზე</a></li>
+<li><a href="st18.html">საღამოს 6 საათზე</a></li>
+<li><a href="st21.html">საღამოს 9 საათზე</a></li>
+<li><a href="st24.html">ღამის 12 საათზე</a></li>
+</ul> -->
+<script language="javascript" type="text/javascript" src="../java/qveda_loc.js"></script>
+ </body>
+ </html>
