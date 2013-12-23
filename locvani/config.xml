@@ -4,7 +4,7 @@
         id        = "com.tveni.ge"
 		versionCode="2"
 		versionName="1.1" 
-        version   = "1.0.0">
+        version   = "1.0.1">
 
     <!-- versionCode is optional and Android only -->
 
