@@ -1,10 +1,9 @@
-////document.write('<hr align="center" width="50%" id="gr">');
+////
 document.write('<div align="center">');
 document.write('<a href=\"index.html\">მთავარი</a> &nbsp; |');
 document.write('&nbsp; <a href=\"shesaxeb.html\">ფაილის შესახებ</a> &nbsp; |');
 document.write('&nbsp; <a href=\"mail.html\">საკონტაქტო</a> &nbsp; |');
 document.write('&nbsp; <a href=\"tanadgoma.html\">თანადგომა</a> &nbsp; |');
-//document.write('&nbsp; <a href=\"zebna.html\">ძებნა</a> &nbsp; |');
 document.write('&nbsp; <a href=\"versia.html\">განახლება</a>');
 document.write('</div>');
 document.write('<hr align="center" width="70%" id="gr">');
@@ -19,7 +18,6 @@ document.write('<a href=\"http://baraqa.com/\" target=\"_blank\"><img src=\"imag
 document.write('<a href=\"http://vid.tveni.ge/\" target=\"_blank\"><img src=\"images/vid.gif\" width=\"88\" height=\"31\" border=\"0\" alt=\"vid.tveni.ge\" /></a> ');
 document.write('<a href=\"http://bina.sivrce.com/\" target=\"_blank\"><img src=\"images/bina.gif\" width=\"88\" height=\"31\" border=\"0\" alt=\"bina.sivrce.com\" /></a> ');
 document.write('<a href=\"http://jewellery.sivrce.com/\" target=\"_blank\"><img src=\"images/jewellery.gif\" width=\"88\" height=\"31\" border=\"0\" alt=\"jewellery.sivrce.com\" /></a> ');
-document.write('<a href=\"http://soap.sivrce.com/\" target=\"_blank\"><img src=\"images/soap.gif\" width=\"88\" height=\"31\" border=\"0\" alt=\"soap.sivrce.com\" /></a> ');
 document.write('<a href=\"http://house.betaneli.ge\" target=\"_blank\"><img src=\"images/house.gif\" width=\"88\" height=\"31\" border=\"0\" alt=\"house.betaneli.ge\" /></a>');
 // and chemi
 document.write('<br /><br /><div align=\"center\"><a href=\"http://geobighost.com/?aid=MTkyMzI2MjIyMzI3MjU=\" target=\"_blank\">ულიმიტო ჰოსტინგი</a></div>');
