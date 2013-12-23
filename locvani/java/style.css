@@ -75,28 +75,7 @@ background-color:#000099;
 	text-shadow: 1px 2px 2px #000;
 	border: 1px solid rgba(255,255,255, 0.5); }
 /* --marcx navigacia*/
-/*
-text-shadow: 0 1px 0 #ccc, 
-               0 2px 0 #c9c9c9,
-               0 3px 0 #bbb,
-               0 4px 0 #b9b9b9,
-               0 5px 0 #aaa,
-               0 6px 1px rgba(0,0,0,.1),
-               0 0 5px rgba(0,0,0,.1),
-               0 1px 3px rgba(0,0,0,.3),
-               0 3px 5px rgba(0,0,0,.2),
-               0 5px 10px rgba(0,0,0,.25),
-               0 10px 10px rgba(0,0,0,.2),
-               0 20px 20px rgba(0,0,0,.15);
 
-    width: 50px;  
-    font-size: 50px;  
-    word-wrap: break-word; 
-    letter-spacing: 20px; 
-	width: 1em;  
-    font-size: 40px;  
-    letter-spacing: 40px; 
-#FCF574 #ff9900*/
 
 /*navigacia*/
 .menu_nav {
@@ -108,7 +87,7 @@ text-shadow: 0 1px 0 #ccc,
 	list-style-image: url(jvari.gif);
 }
 .menu_nav a {
-	padding:7px; font-size:16pt; font-weight:bold;
+	padding:7px; font-size:14pt; font-weight:bold;
 	color:#fffff0; background-color:#000066;  background:rgba(100,23,58,0.2);
 	border: 1px solid rgba(157,11,36, 0.5);
 	-webkit-border-radius: 7px;
